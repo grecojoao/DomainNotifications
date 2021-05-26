@@ -8,9 +8,6 @@ namespace DomainNotifications.Contracts
         IReadOnlyCollection<Notification> Notifications { get; }
         bool IsInvalid { get; }
         bool IsValid { get; }
-
-        void AddNotification(Notification notification);
-        void AddNotifications(IEnumerable<Notification> notifications);
         string NotificationsMessage();
     }
 }
