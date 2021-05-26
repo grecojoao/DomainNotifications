@@ -3,3 +3,7 @@
 src/DomainNotifications/bin/
 
 src/DomainNotifications/obj/
+
+samples/DomainNotifications.Examples.HowToUse/bin/
+
+samples/DomainNotifications.Examples.HowToUse/obj/
