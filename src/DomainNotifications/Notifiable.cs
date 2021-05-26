@@ -26,7 +26,7 @@ namespace DomainNotifications
         }
 
         public string NotificationsMessage() =>
-            string.Join("; ", Notifications.Select(x => x.Message)) + ";";
+            string.Join("; ", Notifications.Select(x => x.Property + ": " + x.Message)) + ";";
 
         public void Clear() =>
             _notifications.Clear();
